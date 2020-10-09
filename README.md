@@ -6,9 +6,8 @@ but can upgrade, we recommend doing so _after_ following the instructions below.
 ## Check That Your macOS System is Compatible with Flatiron School’s Requirements
 
 When working on software, it is important that your computer and the software
-that you’re using are compatible with each other. In this step, we’ll ensure
-that you are able to install all the tools that you will need to complete the
-program.
+you’re using are compatible. In this step, we’ll ensure that you can install all
+the tools that you will need to complete the program.
 
 ### Action Item
 
@@ -32,8 +31,8 @@ information.
 
 ## Check that Your macOS System Has Enough Space for Flatiron School’s Requirements
 
-The programs that we’ll be installing during environment setup plus all of the
-work that you’ll do with Flatiron School will need at least 4 GB of free disk
+The programs that we’ll be installing during environment setup and all of the
+work you’ll do with Flatiron School will need at least 4 GB of free disk
 space. Follow the steps below to ensure that you have enough disk space to
 install all the programs needed during environment setup.
 
@@ -77,8 +76,8 @@ command line tools are already installed...", continue below.
 
 ## Install Homebrew
 
-Homebrew is a package manager for macOS. It allows us to easily install a number
-of programs we will need.
+Homebrew is a package manager for macOS. It allows us to quickly install a
+number of programs we will need.
 
 ### Action Item
 
@@ -119,8 +118,8 @@ continue below.
 
 Google Chrome is the browser that we will use for your Flatiron School Student
 Portal account and also for front-end web development. You are not required to
-use Google Chrome for personal work, but we highly encourage that you download
-it for access to your account and for development in the browser.
+use Google Chrome for personal work, but we highly encourage you to download it
+for access to your account and for development in the browser.
 
 ### Action Item
 
@@ -133,16 +132,16 @@ it for access to your account and for development in the browser.
 
 ### Check Your Work
 
-If you are able to open the "Google Chrome" application using "Spotlight
+If you can open the "Google Chrome" application using "Spotlight
 Search", continue below.
 
 ## Install Visual Studio Code (VS Code) on Windows
 
 Visual Studio Code (VS Code) is the tool that you’ll use to edit your Ruby and
-JavaScript files. It is a text editor that provides some really useful
-extensions for developers. One such tool is an integrated terminal! This means
-that you can edit your code and use your terminal in the same window. Follow the
-steps below to get both set up.
+JavaScript files. It is a text editor that provides some beneficial extensions
+for developers. One such tool is an integrated terminal! This means that you can
+edit your code and use your terminal in the same window. Follow the steps below
+to get both set up.
 
 ### Action Item
 
