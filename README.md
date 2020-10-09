@@ -61,12 +61,14 @@ for other programs we'll be installing.
 
 ### Action Item
 
-1. Open the Apple Developer Download webpage (https://developer.apple.com/download/more/?=command%20line%20tools%20for%20xcode%2012)
+1. Open the [Apple Developer Download webpage][] (https://developer.apple.com/download/more/?=command%20line%20tools%20for%20xcode%2012)
 2. Look for a description of "Command Line Tools for XCode 12"
 3. Look for a release date of September 17, 2020
 4. Click the "+" symbol to see more information about the download
 5. Click "Command Line Tools for XCode 12.dmg" to download
 6. When the download is finished, click on the file to install
+
+[Apple Developer Download webpage]: https://developer.apple.com/download/more/?=command%20line%20tools%20for%20xcode%2012
 
 ### Check Your Work
 
@@ -123,12 +125,14 @@ for access to your account and for development in the browser.
 
 ### Action Item
 
-1. Open the Google Chrome download webpage (https://www.google.com/chrome)
+1. Open the [Google Chrome download webpage][] (https://www.google.com/chrome)
 2. Click "Download Chrome" and "Accept and Install"
 3. Wait for the "googlechrome.dmg" file to download and find it in the "Finder"
    application
 4. Open the "googlechrome.dmg" file and install Google Chrome
 5. Drag the "Google Chrome" application to your "Applications" folder
+
+[Google Chrome download webpage]: https://www.google.com/chrome
 
 ### Check Your Work
 
@@ -145,7 +149,7 @@ to get both set up.
 
 ### Action Item
 
-1. Open the Visual Studio Code download webpage
+1. Open the [Visual Studio Code download webpage][]
    (https://code.visualstudio.com/Download)
 2. Click on the Mac download option and start the download
 3. Wait for the ".zip" file to download and find it in the "Finder" application
@@ -160,10 +164,12 @@ to get both set up.
 10. Open the "Terminal" application using "Spotlight Search"
 11. Type `code` and press `<Enter>`
 
+[Visual Studio Code download webpage]: https://code.visualstudio.com/Download
+
 ### Check Your Work
 
 If Visual Studio Code (VS Code) opened after typing `code` in your "Terminal"
-application, continue below.
+application, continue to the next lesson, **Installing Ruby on macOS**.
 
 <!-- I don't believe this is necessary... -->
 <!-- If you would like to use the terminal built into VS Code, you may need to update
