@@ -1,17 +1,12 @@
-# Updating your system and installing and using applications
+# Updating your macOS system and installing applications
 
-The following instructions are for macOS Catalina. If you are not on Catalina
-but can upgrade, we recommend doing so _after_ following the instructions below.
-Additional instructions are included in the steps below for non-Catalina users. 
-
-You can check your OS version by clicking the apple menu in the top left and
-clicking 'About This Mac'.
+The following instructions are for macOS Catalina. If you are not on Catalina but can upgrade, we recommend doing so _after_ following the instructions below. 
 
 ## Check that your macOS system is compatible with Flatiron School’s requirements
 
 When working on software, it is important that your computer and the software that you’re using are compatible with each other. In this step, we’ll ensure that you are able to install all the tools that you will need to complete the program.
 
-### Action item: check your macOS system specifications
+### Action item
 
 1. Click on the Apple () menu in the top left of the window
 2. Choose "About This Mac" from the menu
@@ -32,7 +27,7 @@ The programs that we’ll be installing during environment setup plus all of the
 
 <!-- TODO: Verify disk space needs; seems low -->
 
-### Action item: Check your storage
+### Action item
 
 1. Click on the Apple () menu in the top left of the window
 2. Choose "About This Mac" from the menu
@@ -77,8 +72,6 @@ Homebrew is a package manager for macOS. It allows us to easily install a number
 
 You can verify that Homebrew is successfully installed by running `brew help`. If your terminal outputs a list of `brew` commands, you're all set.
 
-<!-- HERE -->
-
 ## Install Zsh
 
 Zsh is the new standard shell for the macOS and comes pre-installed with the latest version of macOS.
@@ -102,7 +95,7 @@ If you rerun `echo $SHELL`, the terminal should output `/usr/local/bin/zsh`, con
 
 Google Chrome is the browser that we will use for your Flatiron School Student Portal account and also for front-end web development. You are not required to use Google Chrome for personal work, but we highly encourage that you download it for access to your account and for development in the browser.
 
-### Action item: download and install Google Chrome
+### Action item
 
 1. Open the Google Chrome download webpage (https://www.google.com/chrome)
 2. Click "Download Chrome" and "Accept and Install"
@@ -118,7 +111,7 @@ If you are able to open the "Google Chrome" application using "Spotlight Search"
 
 Visual Studio Code (VS Code) is the tool that you’ll use to edit your Ruby and JavaScript files. It is a text editor that provides some really useful extensions for developers. One such tool is an integrated terminal! This means that you can edit your code and use your terminal in the same window. Follow the steps below to get both set up.
 
-### Action item: download and install Visual Studio Code
+### Action item
 
 1. Open the Visual Studio Code download webpage (https://code.visualstudio.com/Download)
 2. Click on the Mac download option and start the download
