@@ -114,7 +114,6 @@ Google Chrome is the browser that we will use for your Flatiron School Student P
 
 If you are able to open the "Google Chrome" application using "Spotlight Search", continue below.
 
-
 ## Install Visual Studio Code (VS Code) on Windows
 
 Visual Studio Code (VS Code) is the tool that you’ll use to edit your Ruby and JavaScript files. It is a text editor that provides some really useful extensions for developers. One such tool is an integrated terminal! This means that you can edit your code and use your terminal in the same window. Follow the steps below to get both set up.
@@ -127,8 +126,8 @@ Visual Studio Code (VS Code) is the tool that you’ll use to edit your Ruby and
 4. Open the ".zip" file and install Visual Studio Code
 5. Drag the "Visual Studio Code" application to your "Applications" folder
 6. Open the "Visual Studio Code" application using "Spotlight Search"
-7. Click “View” in the toolbar, then click "Command Palette" in the dropdown menu, or use the shortcut <Command ⌘> + <Shift> + P
-8. Type ">shell command" in the box and click on "Shell Command: Install 'code' command in PATH"
+7. Click "View" in the toolbar, then click "Command Palette" in the dropdown menu, or use the shortcut <Command ⌘> + <Shift> + P
+8. Type "shell command" in the box and click on "Shell Command: Install 'code' command in PATH"
 9. Close the "Visual Studio Code" application
 10. Open the "Terminal" application using "Spotlight Search"
 11. Type `code` and press `<Enter>`
@@ -182,17 +181,17 @@ Or something similar to this:
 ``` -->
 
 
-## Install Slack
+<!-- ## Install Slack
 
 ### Action item
 
-<!-- 1. Open the Slack download webpage (https://slack.com/download/mac)
-2. Click on the Mac download option -->
+1. Open the Slack download webpage (https://slack.com/download/mac)
+2. Click on the Mac download option
 
 
 ### Check your work
 
-<!-- Install Slack for Mac and enable desktop notifications for Slack. One week
+Install Slack for Mac and enable desktop notifications for Slack. One week
 before your start date, you will receive an invitation to join the Flatiron
 School workspace, `flatiron-school.slack.com`. You’ll also receive a welcome
 email with information about channels you should join. -->
