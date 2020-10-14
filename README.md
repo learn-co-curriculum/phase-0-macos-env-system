@@ -7,7 +7,7 @@ but can upgrade, we recommend doing so _after_ following the instructions below.
 
 When working on software, it is important that your computer and the software
 you’re using are compatible. In this step, we’ll ensure that you can install all
-the tools that you will need to complete the program.
+the tools you will need to complete the program.
 
 ### Action Item
 
@@ -72,9 +72,10 @@ for other programs we'll be installing.
 
 ### Check Your Work
 
-Open the "Terminal" application using "Spotlight Search", type `xcode-select
---install` and press `<Enter>`. If your terminal says "xcode-select: error:
-command line tools are already installed...", continue below.
+Open the "Terminal" application using "Spotlight Search", at the terminal
+prompt type `xcode-select --install` and press `<Enter>`. If your terminal 
+says "xcode-select: error: command line tools are already installed...", 
+continue below.
 
 ## Install Homebrew
 
@@ -139,7 +140,7 @@ for access to your account and for development in the browser.
 If you can open the "Google Chrome" application using "Spotlight
 Search", continue below.
 
-## Install Visual Studio Code (VS Code) on Windows
+## Install Visual Studio Code (VS Code)
 
 Visual Studio Code (VS Code) is the tool that you’ll use to edit your Ruby and
 JavaScript files. It is a text editor that provides some beneficial extensions
