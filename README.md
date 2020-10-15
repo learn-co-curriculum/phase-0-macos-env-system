@@ -18,6 +18,8 @@ the tools you will need to complete the program.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bHHyxMMf2CM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If your version name is macOS Catalina and your version number is greater than
 "Version 10.15.0", your computer meets our requirements for the course and you
 can continue below.
