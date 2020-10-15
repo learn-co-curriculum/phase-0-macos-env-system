@@ -50,6 +50,8 @@ install all the programs needed during environment setup.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j49xXshUhxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If your free space for your macOS partition is greater than 4 GB, continue
 below. Otherwise, click "Manage..." to open the System Information window and
 free up some storage space.
