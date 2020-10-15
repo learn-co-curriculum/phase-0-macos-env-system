@@ -185,6 +185,8 @@ to get both set up.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W-fLaEmTLUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If Visual Studio Code (VS Code) opened after typing `code` in your "Terminal"
 application, continue to the next lesson, **Installing Ruby on macOS**.
 
