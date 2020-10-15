@@ -151,6 +151,8 @@ for access to your account and for development in the browser.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2AXGt6-kHnE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If you can open the "Google Chrome" application using "Spotlight
 Search", continue below.
 
