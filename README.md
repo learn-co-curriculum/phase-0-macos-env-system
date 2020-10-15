@@ -126,6 +126,8 @@ latest version of macOS.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sfOvyg_hfTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If you rerun `echo $SHELL`, the terminal should output `/usr/local/bin/zsh`,
 continue below.
 
