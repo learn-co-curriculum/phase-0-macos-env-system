@@ -76,6 +76,8 @@ for other programs we'll be installing.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j49xXshUhxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Open the "Terminal" application using "Spotlight Search", at the terminal
 prompt type `xcode-select --install` and press `<Enter>`. If your terminal 
 says "xcode-select: error: command line tools are already installed...", 
