@@ -18,7 +18,8 @@ the tools you will need to complete the program.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bHHyxMMf2CM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bHHyxMMf2CM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 If your version name is macOS Catalina and your version number is greater than
 "Version 10.15.0", your computer meets our requirements for the course and you
@@ -50,7 +51,8 @@ install all the programs needed during environment setup.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j49xXshUhxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j49xXshUhxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 If your free space for your macOS partition is greater than 4 GB, continue
 below. Otherwise, click "Manage..." to open the System Information window and
@@ -76,7 +78,8 @@ for other programs we'll be installing.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j49xXshUhxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CXreDmTfn9E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 Open the "Terminal" application using "Spotlight Search", at the terminal
 prompt type `xcode-select --install` and press `<Enter>`. If your terminal 
@@ -98,6 +101,9 @@ number of programs we will need.
 5. Reopen the "Terminal" application using "Spotlight Search"
 
 ### Check Your Work
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LU8UeykJxRc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 You can verify that Homebrew is successfully installed by running `brew help`.
 If your terminal outputs a list of `brew` commands, you're all set.
