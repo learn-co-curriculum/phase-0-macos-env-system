@@ -117,13 +117,12 @@ latest version of macOS.
 
 1. Open the "Terminal" application using "Spotlight Search"
 2. Type `echo $SHELL` and press `<Enter>`
-3. If you see output that ends in `bin/zsh`, you are already using Zsh and can continue to the next section in this lesson
-4. If the output you see _does not_ include `bin/zsh`, type `brew install zsh` and press `<Enter>`
-5. Type `echo /usr/local/bin/zsh | sudo tee -a /etc/shells` and press `<Enter>`
+3. Type `brew install zsh` and press `<Enter>`
+4. Type `echo /usr/local/bin/zsh | sudo tee -a /etc/shells` and press `<Enter>`
    (Note: you will need to enter your password.)
-6. Type `chsh -s /usr/local/bin/zsh` and press `<Enter>`
-7. Close the "Terminal" application
-8. Reopen the "Terminal" application using "Spotlight Search"
+5. Type `chsh -s /usr/local/bin/zsh` and press `<Enter>`
+6. Close the "Terminal" application
+7. Reopen the "Terminal" application using "Spotlight Search"
 
 ### Check Your Work
 
