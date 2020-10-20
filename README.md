@@ -126,6 +126,8 @@ already be using Zsh and can move on to **Check Your Work**.
 5. Type `chsh -s /usr/local/bin/zsh` and press `<Enter>`
 6. Close the "Terminal" application
 7. Reopen the "Terminal" application using "Spotlight Search"
+8. If you receive a message starting with "This is the Z Shell configuration
+   function for new users, zsh-newuser-install", press `0`.
 
 ### Check Your Work
 
