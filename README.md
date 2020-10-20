@@ -113,6 +113,9 @@ If your terminal outputs a list of `brew` commands, you're all set.
 Zsh is the new standard shell for the macOS and comes pre-installed with the
 latest version of macOS.
 
+If your version name is macOS Catalina (from the steps earlier), you should
+already be using Zsh and can move on to **Check Your Work**.
+
 ### Action Item
 
 1. Open the "Terminal" application using "Spotlight Search"
@@ -128,8 +131,8 @@ latest version of macOS.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sfOvyg_hfTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you rerun `echo $SHELL`, the terminal should output `/usr/local/bin/zsh`,
-continue below.
+If you run `echo $SHELL`, the terminal should output `/usr/local/bin/zsh`.
+This indicates that Zsh is in use and you are set to continue below.
 
 ## Install Google Chrome
 
