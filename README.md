@@ -195,7 +195,7 @@ to get both set up.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KL6EnXV-wVA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If Visual Studio Code (VS Code) opened after typing `code` in your "Terminal"
-application, continue to the next lesson, **Installing Ruby on macOS**.
+application, continue to the next lesson, **Installing Node on macOS**.
 
 <!-- I don't believe this is necessary... -->
 <!-- If you would like to use the terminal built into VS Code, you may need to update
