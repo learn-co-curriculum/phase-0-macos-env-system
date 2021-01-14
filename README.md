@@ -58,6 +58,17 @@ If your free space for your macOS partition is greater than 4 GB, continue
 below. Otherwise, click "Manage..." to open the System Information window and
 free up some storage space.
 
+## ALERT - For New M1 Mac Laptops ONLY
+
+If you are using a Mac laptop with the new M1 chip (released in late 2020), there is
+an additional step required for some tools to install correctly. This step involves
+creating a copy of your laptop's Terminal application and enabling it to work with
+tools that aren't yet compatible with the M1 chip. Check out [this link][m1]
+and follow the steps provided **before continuing**.
+
+[m1]: https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602
+
+
 ## Install Command Line Tools for Xcode
 
 Command Line Tools for Xcode is a suite of development tools from Apple,
