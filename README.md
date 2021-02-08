@@ -76,6 +76,17 @@ including tools for building Mac and iPhone applications. It will help you to
 quickly set up your environment by downloading and installing essential tools
 for other programs we'll be installing.
 
+### ALERT - For New M1 Mac Laptops ONLY
+
+If you are using a Mac laptop with the new M1 chip (released in late 2020), there is
+an additional step required for tools like Xcode to install correctly. This step involves
+creating a copy of your laptop's Terminal application and enabling it to work with
+tools that aren't yet compatible with the M1 chip. Check out [this link][m1]
+and follow the steps provided **before continuing**.
+
+[m1]: https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602
+
+
 ### Action Item
 
 1. Open the [Apple Developer Download webpage][] (https://developer.apple.com/download/more/?=command%20line%20tools%20for%20xcode%2012)
