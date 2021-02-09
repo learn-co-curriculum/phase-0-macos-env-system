@@ -1,4 +1,4 @@
-# Updating Your macOS System and Installing Applications
+# MacOS System Setup
 
 The following instructions are for macOS Catalina. If you are not on Catalina
 but can upgrade, we recommend doing so _after_ following the instructions below.
