@@ -91,7 +91,7 @@ rvm install 2.7.2
 ```
 
 In addition, if you are using an M1 laptop, you will already have Zsh
-installed and in use, so you can move on to installing VS Code below.
+installed and in use, so you can move on to installing Chrome and VS Code below.
 
 ## Install Command Line Tools for Xcode
 
@@ -99,17 +99,6 @@ Command Line Tools for Xcode is a suite of development tools from Apple,
 including tools for building Mac and iPhone applications. It will help you to
 quickly set up your environment by downloading and installing essential tools
 for other programs we'll be installing.
-
-### ALERT - For New M1 Mac Laptops ONLY
-
-If you are using a Mac laptop with the new M1 chip (released in late 2020), there is
-an additional step required for tools like Xcode to install correctly. This step involves
-creating a copy of your laptop's Terminal application and enabling it to work with
-tools that aren't yet compatible with the M1 chip. Check out [this link][m1]
-and follow the steps provided **before continuing**.
-
-[m1]: https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602
-
 
 ### Action Item
 
