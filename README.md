@@ -72,7 +72,7 @@ the steps below instead of the normal instructions provided for installing Xcode
    ```
 
 2. Create a duplicate copy of the terminal app that can run x86 programs with Rosetta. Follow the
-   steps [detailed in this article][x86 terminal] to do this.
+   steps [detailed in this article][x86 terminal] (https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602) to do this.
 
 [x86 terminal]: https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602
 
