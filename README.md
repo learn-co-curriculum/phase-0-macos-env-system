@@ -76,7 +76,7 @@ the steps below instead of the normal instructions provided for installing Xcode
 
 [x86 terminal]: https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602
 
-3.  Install Homebrew with the following command: 
+3. Install Homebrew with the following command: 
 
    ```sh
    arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
