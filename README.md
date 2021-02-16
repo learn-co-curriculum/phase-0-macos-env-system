@@ -60,14 +60,38 @@ free up some storage space.
 
 ## ALERT - For New M1 Mac Laptops ONLY
 
-If you are using a Mac laptop with the new M1 chip (released in late 2020), there is
-an additional step required for some tools to install correctly. This step involves
-creating a copy of your laptop's Terminal application and enabling it to work with
-tools that aren't yet compatible with the M1 chip. Check out [this link][m1]
-and follow the steps provided **before continuing**.
+If you are using a Mac laptop with the new **M1** chip (released in late 2020), there are some
+additional step required at this stage to ensure all necessary tools install correctly. Follow
+the steps below instead of the normal instructions provided for installing Xcode, Homebrew and Ruby.
 
-[m1]: https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602
+1. Instead of installing Xcode via the directions in the next section, open your terminal and
+run the following to install Xcode:
 
+```sh
+xcode-select --install
+```
+
+2. Create a duplicate copy of the terminal app that can run x86 programs with Rosetta. Follow the
+steps [detailed in this article][x86 terminal] to do this.
+
+[x86 terminal]: https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602
+
+3.  Install Homebrew with the following command: 
+
+```sh
+arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+4. Run the following three commands to install RVM and Ruby:
+
+```sh
+\curl -sSL https://get.rvm.io | bash -s stable
+source $HOME/.rvm/scripts/rvm
+rvm install 2.7.2
+```
+
+In addition, if you are using an M1 laptop, you will already have Zsh
+installed and in use, so you can move on to installing VS Code below.
 
 ## Install Command Line Tools for Xcode
 
