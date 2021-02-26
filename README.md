@@ -61,7 +61,7 @@ free up some storage space.
 ## ALERT - For New M1 Mac Laptops ONLY
 
 If you are using a Mac laptop with the new **M1** chip (released in late 2020), there are some
-additional step required at this stage to ensure all necessary tools install correctly. Follow
+additional steps required at this stage to ensure all necessary tools install correctly. Follow
 the steps below instead of the normal instructions provided for installing Xcode, Homebrew and Ruby.
 
 1. Instead of installing Xcode via the directions in the next section, open your terminal and
