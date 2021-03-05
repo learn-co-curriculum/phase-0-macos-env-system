@@ -171,6 +171,23 @@ already be using Zsh and can move on to **Check Your Work**.
 If you run `echo $SHELL`, the terminal should output `/usr/local/bin/zsh`.
 This indicates that Zsh is in use and you are set to continue below.
 
+## Troubleshooting
+
+If you see the following message when opening your terminal:
+
+```sh
+zsh compinit: insecure directories, run compaudit for list.
+Ignore insecure directories and continue [y] or abort compinit [n]? 
+```
+
+Type `y` and press enter, then run the following command:
+
+```sh
+compaudit | xargs chmod g-w
+```
+
+Close and reopen your terminal to clear the error.
+
 ## Install Google Chrome
 
 Google Chrome is the browser that we will use for your Flatiron School Student
