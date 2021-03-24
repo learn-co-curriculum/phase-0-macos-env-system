@@ -1,7 +1,8 @@
 # MacOS System Setup
 
-The following instructions are for macOS Catalina. If you are not on Catalina
-but can upgrade, we recommend doing so _after_ following the instructions below.
+The following instructions are for macOS Catalina through BigSur. If you are not on Catalina
+or a later operating system like BigSur but have the option to update, we recommend doing so before
+following the instructions below.
 
 ## Check That Your macOS System is Compatible with Flatiron School’s Requirements
 
