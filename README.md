@@ -83,16 +83,22 @@ the steps below instead of the normal instructions provided for installing Xcode
    arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
 
-4. Run the following three commands to install RVM and Ruby:
+4. Run the following three commands on after the other to install RVM and Ruby:
 
    ```sh
    \curl -sSL https://get.rvm.io | bash -s stable
+   ```
+
+   ```sh
    source $HOME/.rvm/scripts/rvm
+   ```
+
+   ```sh
    rvm install 2.7.2
    ```
 
-In addition, if you are using an M1 laptop, you will already have Zsh
-installed and in use, so you can move on to installing Chrome and VS Code below.
+**In addition, if you are using an M1 laptop, you will already have Zsh
+installed and in use, so you can move on to installing Chrome and VS Code below.**
 
 ## Install Command Line Tools for Xcode
 
@@ -149,7 +155,7 @@ If your terminal outputs a list of `brew` commands, you're all set.
 Zsh is the new standard shell for the macOS and comes pre-installed with the
 latest version of macOS.
 
-If your version name is macOS Catalina (from the steps earlier), you should
+If your version name is macOS Catalina or macOS Big Sur (from the steps earlier), you should
 already be using Zsh and can move on to **Check Your Work**.
 
 ### Action Item
