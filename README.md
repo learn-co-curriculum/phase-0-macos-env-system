@@ -83,11 +83,12 @@ the steps below instead of the normal instructions provided for installing Xcode
 
 4. Run the following three commands one after the other to install RVM and Ruby:
 
-  a. `\curl -sSL https://get.rvm.io | bash -s stable`
+   `\curl -sSL https://get.rvm.io | bash -s stable`
 
-  b. `source $HOME/.rvm/scripts/rvm`
+   `source $HOME/.rvm/scripts/rvm`
    
-  c. `rvm install 2.7.2`
+   `rvm install 2.7.2`
+   ```
 
 **In addition, if you are using an M1 laptop, you will already have Zsh
 installed and in use, so you can move on to installing Chrome and VS Code below.**
