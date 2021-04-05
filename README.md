@@ -68,9 +68,7 @@ the steps below instead of the normal instructions provided for installing Xcode
 1. Instead of installing Xcode via the directions in the next section, open your terminal and
    run the following to install Xcode:
 
-   ```sh
-   xcode-select --install
-   ```
+   `xcode-select --install`
 
 2. Create a duplicate copy of the terminal app that can run x86 programs with Rosetta. Follow the
    steps [detailed in this article][x86 terminal] (https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602) to do this.
@@ -85,17 +83,11 @@ the steps below instead of the normal instructions provided for installing Xcode
 
 4. Run the following three commands one after the other to install RVM and Ruby:
 
-   ```sh
-   \curl -sSL https://get.rvm.io | bash -s stable
-   ```
+  a. `\curl -sSL https://get.rvm.io | bash -s stable`
 
-   ```sh
-   source $HOME/.rvm/scripts/rvm
-   ```
-
-   ```sh
-   rvm install 2.7.2
-   ```
+  b. `source $HOME/.rvm/scripts/rvm`
+   
+  c. `rvm install 2.7.2`
 
 **In addition, if you are using an M1 laptop, you will already have Zsh
 installed and in use, so you can move on to installing Chrome and VS Code below.**
