@@ -88,7 +88,6 @@ the steps below instead of the normal instructions provided for installing Xcode
    `source $HOME/.rvm/scripts/rvm`
    
    `rvm install 2.7.2`
-   ```
 
 **In addition, if you are using an M1 laptop, you will already have Zsh
 installed and in use, so you can move on to installing Chrome and VS Code below.**
