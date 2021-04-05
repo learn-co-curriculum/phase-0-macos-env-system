@@ -77,10 +77,8 @@ the steps below instead of the normal instructions provided for installing Xcode
 
 3. Install Homebrew with the following command: 
 
-   ```sh
-   arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-   ```
-
+   `arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+   
 4. Run the following three commands one after the other to install RVM and Ruby:
 
    `\curl -sSL https://get.rvm.io | bash -s stable`
