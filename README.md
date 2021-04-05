@@ -83,7 +83,7 @@ the steps below instead of the normal instructions provided for installing Xcode
    arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
 
-4. Run the following three commands on after the other to install RVM and Ruby:
+4. Run the following three commands one after the other to install RVM and Ruby:
 
    ```sh
    \curl -sSL https://get.rvm.io | bash -s stable
