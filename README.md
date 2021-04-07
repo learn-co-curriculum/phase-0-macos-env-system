@@ -145,20 +145,21 @@ If your terminal outputs a list of `brew` commands, you're all set.
 Zsh is the new standard shell for the macOS and comes pre-installed with the
 latest version of macOS.
 
-If your version name is macOS Catalina or macOS Big Sur (from the steps earlier), you should
-already be using Zsh and can move on to **Check Your Work**.
+**If your version name is macOS Catalina or macOS Big Sur (from the steps earlier), you should
+already be using Zsh and can move on to the "Check Your Work" section.**
 
 ### Action Item
 
 1. Open the "Terminal" application using "Spotlight Search"
 2. Type `echo $SHELL` and press `<Enter>`
-3. Type `brew install zsh` and press `<Enter>`
-4. Type `echo /usr/local/bin/zsh | sudo tee -a /etc/shells` and press `<Enter>`
+3. **If you see `/bin/zsh` DO NOT continue with the next steps. Move on to "Check Your Work"** 
+4. Type `brew install zsh` and press `<Enter>`
+5. Type `echo /usr/local/bin/zsh | sudo tee -a /etc/shells` and press `<Enter>`
    (Note: you will need to enter your password.)
-5. Type `chsh -s /usr/local/bin/zsh` and press `<Enter>`
-6. Close the "Terminal" application
-7. Reopen the "Terminal" application using "Spotlight Search"
-8. If you receive a message starting with "This is the Z Shell configuration
+6. Type `chsh -s /usr/local/bin/zsh` and press `<Enter>`
+7. Close the "Terminal" application
+8. Reopen the "Terminal" application using "Spotlight Search"
+9. If you receive a message starting with "This is the Z Shell configuration
    function for new users, zsh-newuser-install", press `0`.
 
 ### Check Your Work
