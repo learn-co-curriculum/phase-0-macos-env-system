@@ -152,7 +152,7 @@ already be using Zsh and can move on to the "Check Your Work" section.**
 
 1. Open the "Terminal" application using "Spotlight Search"
 2. Type `echo $SHELL` and press `<Enter>`
-3. **If you see `/bin/zsh` DO NOT continue with the next steps. Move on to "Check Your Work"** 
+3. **If you see `/bin/zsh` DO NOT continue with the next steps. Move on to "Check Your Work".** 
 4. Type `brew install zsh` and press `<Enter>`
 5. Type `echo /usr/local/bin/zsh | sudo tee -a /etc/shells` and press `<Enter>`
    (Note: you will need to enter your password.)
