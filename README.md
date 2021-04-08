@@ -166,7 +166,7 @@ Otherwise, to install Zsh:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sfOvyg_hfTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you run `echo $SHELL`, the terminal should output `/usr/local/bin/zsh`.
+If you run `echo $SHELL`, the terminal should output `/bin/zsh` or `/usr/local/bin/zsh`.
 This indicates that Zsh is in use and you are set to continue below.
 
 ## Troubleshooting
