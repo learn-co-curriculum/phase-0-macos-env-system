@@ -143,7 +143,7 @@ If your terminal outputs a list of `brew` commands, you're all set.
 ## Check Whether You Need to Install Zsh
 
 Zsh is the new standard shell for the macOS and comes pre-installed with the
-latest version of macOS.
+latest version of macOS, but it may need to be installed on older Macs.
 
 ### Action Item
 
