@@ -14,17 +14,17 @@ the tools you will need to complete the program.
 
 1. Click on the Apple () menu in the top left of the window
 2. Choose "About This Mac" from the menu
-3. Look for the version name (for example, "macOS Catalina")
-4. Look for the version number (for example, "Version 10.15.6")
+3. Look for the version name (for example, "macOS Big Sur")
+4. Look for the version number (for example, "Version 11.4")
 
 ### Check Your Work
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bHHyxMMf2CM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
-If your version name is macOS Catalina and your version number is greater than
-"Version 10.15.0", your computer meets our requirements for the course and you
-can continue below.
+If your version name is macOS Catalina or Big Sur and your version number is
+greater than "Version 10.15.0", your computer meets our requirements for the
+course and you can continue below.
 
 If your computer does not meet the requirements listed above, but you can
 upgrade, we recommend that you upgrade after completing the environment setup.
@@ -68,7 +68,9 @@ the steps below instead of the normal instructions provided for installing Xcode
 1. Instead of installing Xcode via the directions in the next section, open your terminal and
    run the following to install Xcode:
 
-   `xcode-select --install`
+```txt
+xcode-select --install
+```
 
 2. Create a duplicate copy of the terminal app that can run x86 programs with Rosetta. Follow the
    steps [detailed in this article][x86 terminal] (https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602) to do this.
@@ -77,17 +79,17 @@ the steps below instead of the normal instructions provided for installing Xcode
 
 **Note: Every installation step should now be done in the terminal window that has Rosetta enabled**
 
-3. Install Homebrew with the following command: 
+3. Install Homebrew with the following command:
 
    `arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-   
+
 4. Run the following three commands one after the other to install RVM and Ruby:
 
    `\curl -sSL https://get.rvm.io | bash -s stable`
 
    `source $HOME/.rvm/scripts/rvm`
-   
-   `rvm install 2.7.2`
+
+   `rvm install 2.7.3`
 
 **In addition, if you are using an M1 laptop, you will already have Zsh
 installed and in use, so you can move on to installing Chrome and VS Code below.**
@@ -101,14 +103,15 @@ for other programs we'll be installing.
 
 ### Action Item
 
-1. Open the [Apple Developer Download webpage][] (https://developer.apple.com/download/more/?=command%20line%20tools%20for%20xcode%2012)
-2. Look for a description of "Command Line Tools for XCode 12"
-3. Look for a release date of September 17, 2020
-4. Click the "+" symbol to see more information about the download
-5. Click "Command Line Tools for XCode 12.dmg" to download
-6. When the download is finished, click on the file to install
+1. Open the [Apple Developer Download webpage][] (https://developer.apple.com/download/all)
+2. Look for the most recent version of "Command Line Tools for XCode (**Note**:
+   Make sure to look for "Command Line Tools" in the name, as there is also a
+   separate "XCode" package. You want the "Command Line Tools for XCode"). At the time of writing, the most recent version is "Command Line Tools for Xcode 12.5".
+3. Click "View Details" to see more information about the download
+4. Click "Command Line Tools for XCode 12.5.dmg" to download
+5. When the download is finished, click on the file to install
 
-[Apple Developer Download webpage]: https://developer.apple.com/download/more/?=command%20line%20tools%20for%20xcode%2012
+[apple developer download webpage]: https://developer.apple.com/download/all
 
 ### Check Your Work
 
@@ -116,8 +119,8 @@ for other programs we'll be installing.
 </iframe>
 
 Open the "Terminal" application using "Spotlight Search", at the terminal
-prompt type `xcode-select --install` and press `<Enter>`. If your terminal 
-says "xcode-select: error: command line tools are already installed...", 
+prompt type `xcode-select --install` and press `<Enter>`. If your terminal
+says "xcode-select: error: command line tools are already installed...",
 continue below.
 
 ## Install Homebrew
@@ -151,7 +154,7 @@ latest version of macOS, but it may need to be installed on older Macs.
 
 1. Open the "Terminal" application using "Spotlight Search"
 2. Type `echo $SHELL` and press `<Enter>`
-3. **If you see `/bin/zsh` or `/usr/local/bin/zsh` DO NOT continue with the next steps. Move on to "Check Your Work".** 
+3. **If you see `/bin/zsh` or `/usr/local/bin/zsh` DO NOT continue with the next steps. Move on to "Check Your Work".**
 
 Otherwise, to install Zsh:
 
@@ -177,7 +180,7 @@ If you see the following message when opening your terminal:
 
 ```sh
 zsh compinit: insecure directories, run compaudit for list.
-Ignore insecure directories and continue [y] or abort compinit [n]? 
+Ignore insecure directories and continue [y] or abort compinit [n]?
 ```
 
 Type `y` and press enter, then run the following command:
@@ -204,7 +207,7 @@ for access to your account and for development in the browser.
 4. Open the "googlechrome.dmg" file and install Google Chrome
 5. Drag the "Google Chrome" application to your "Applications" folder
 
-[Google Chrome download webpage]: https://www.google.com/chrome
+[google chrome download webpage]: https://www.google.com/chrome
 
 ### Check Your Work
 
@@ -238,7 +241,7 @@ to get both set up.
 10. Open the "Terminal" application using "Spotlight Search"
 11. Type `code` and press `<Enter>`
 
-[Visual Studio Code download webpage]: https://code.visualstudio.com/Download
+[visual studio code download webpage]: https://code.visualstudio.com/Download
 
 ### Check Your Work
 
@@ -248,62 +251,3 @@ to get both set up.
 
 If Visual Studio Code (VS Code) opened after typing `code` in your "Terminal"
 application, continue to the next lesson, **Installing Node on macOS**.
-
-<!-- I don't believe this is necessary... -->
-<!-- If you would like to use the terminal built into VS Code, you may need to update
-the settings. If you intend to use your regular terminal, you do not need to
-complete this step.
-
-To update VS Code's terminal settings, while in VS Code, press
-`command(⌘) + shift(⇧) + p` and search for `settings.json`.
-
-![VS Code settings.json](https://curriculum-content.s3.amazonaws.com/onboarding/vs%20code%20settings.png)
-
-In this file, you should see opening and closing curly braces `{}` without
-anything inside them. Add the following in between the braces:
-
-```js
-"terminal.integrated.env.osx": {
-    "PATH": ""
-}
-```
-
-If there are already items inside the curly braces, instead of erasing them, you
-can add a comma after the last item and paste in the above setting on a new
-line. The file should look like this:
-
-```js
-{
-  "terminal.integrated.env.osx": {
-    "PATH": ""
-  }
-}
-```
-
-Or something similar to this:
-
-```js
-{
-  "some.other.settings.present": true,
-  "do.not.forget.the.end.comma": true,
-  "terminal.integrated.env.osx": {
-    "PATH": ""
-  }
-}
-``` -->
-
-
-<!-- ## Install Slack
-
-### Action item
-
-1. Open the Slack download webpage (https://slack.com/download/mac)
-2. Click on the Mac download option
-
-
-### Check your work
-
-Install Slack for Mac and enable desktop notifications for Slack. One week
-before your start date, you will receive an invitation to join the Flatiron
-School workspace, `flatiron-school.slack.com`. You’ll also receive a welcome
-email with information about channels you should join. -->
