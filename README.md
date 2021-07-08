@@ -89,7 +89,7 @@ xcode-select --install
 
    `source $HOME/.rvm/scripts/rvm`
 
-   `rvm install 2.7.3`
+   `rvm install 2.7.4`
 
 **In addition, if you are using an M1 laptop, you will already have Zsh
 installed and in use, so you can move on to installing Chrome and VS Code below.**
