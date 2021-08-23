@@ -1,8 +1,19 @@
 # MacOS System Setup
 
-The following instructions are for macOS Catalina through BigSur. If you are not on Catalina
-or a later operating system like BigSur but have the option to update, we recommend doing so before
-following the instructions below.
+The following instructions are for macOS Catalina through BigSur. If you are not
+on Catalina or a later operating system like BigSur but have the option to
+update, we recommend doing so before following the instructions below.
+
+**Note**: Throughout the environment setup, you will see commands that look like
+this:
+
+```console
+$ whoami
+```
+
+Any time you see a command like this with a `$` at the beginning, those commands
+should be entered in your terminal **without** the `$`. So for the example
+above, you would type `whoami` in the terminal (without a `$`).
 
 ## Check That Your macOS System is Compatible with Flatiron School’s Requirements
 
@@ -61,38 +72,44 @@ free up some storage space.
 
 ## ALERT - For New M1 Mac Laptops ONLY
 
-If you are using a Mac laptop with the new **M1** chip (released in late 2020), there are some
-additional steps required at this stage to ensure all necessary tools install correctly. Follow
-the steps below instead of the normal instructions provided for installing Xcode, Homebrew and Ruby.
+If you are using a Mac laptop with the new **M1** chip (released in late 2020),
+there are some additional steps required at this stage to ensure all necessary
+tools install correctly. Follow the steps below instead of the normal
+instructions provided for installing Xcode, Homebrew and Ruby.
 
-1. Instead of installing Xcode via the directions in the next section, open your terminal and
-   run the following to install Xcode:
+**1.** Instead of installing Xcode via the directions in the next section, open
+your terminal and run the following to install Xcode:
 
-```txt
-xcode-select --install
+```console
+$ xcode-select --install
 ```
 
-2. Create a duplicate copy of the terminal app that can run x86 programs with Rosetta. Follow the
-   steps [detailed in this article][x86 terminal] (https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602) to do this.
+**2.** Create a duplicate copy of the terminal app that can run x86 programs
+with Rosetta. Follow the steps [detailed in this article][x86 terminal]
+(https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602)
+to do this.
 
 [x86 terminal]: https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602
 
 **Note: Every installation step should now be done in the terminal window that has Rosetta enabled**
 
-3. Install Homebrew with the following command:
+**3.** Install Homebrew with the following command:
 
-   `arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+```console
+$ arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
-4. Run the following three commands one after the other to install RVM and Ruby:
+**4.** Run the following three commands one after the other to install RVM and Ruby:
 
-   `\curl -sSL https://get.rvm.io | bash -s stable`
-
-   `source $HOME/.rvm/scripts/rvm`
-
-   `rvm install 2.7.4`
+```sh
+$ curl -sSL https://get.rvm.io | bash -s stable
+$ source $HOME/.rvm/scripts/rvm
+$ rvm install 2.7.4
+```
 
 **In addition, if you are using an M1 laptop, you will already have Zsh
-installed and in use, so you can move on to installing Chrome and VS Code below.**
+installed and in use, so you can move on to installing Chrome and VS Code
+below.**
 
 ## Install Command Line Tools for Xcode
 
@@ -178,15 +195,15 @@ This indicates that Zsh is in use and you are set to continue below.
 
 If you see the following message when opening your terminal:
 
-```sh
+```console
 zsh compinit: insecure directories, run compaudit for list.
 Ignore insecure directories and continue [y] or abort compinit [n]?
 ```
 
 Type `y` and press enter, then run the following command:
 
-```sh
-compaudit | xargs chmod g-w
+```console
+$ compaudit | xargs chmod g-w
 ```
 
 Close and reopen your terminal to clear the error.
