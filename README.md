@@ -101,7 +101,7 @@ $ arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Home
 
 **4.** Run the following three commands one after the other to install RVM and Ruby:
 
-```sh
+```console
 $ curl -sSL https://get.rvm.io | bash -s stable
 $ source $HOME/.rvm/scripts/rvm
 $ rvm install 2.7.4
