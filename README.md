@@ -15,10 +15,10 @@ Any time you see a command like this with a `$` at the beginning, those commands
 should be entered in your terminal **without** the `$`. So for the example
 above, you would type `whoami` in the terminal (without a `$`).
 
-## Check That Your macOS System is Compatible with Flatiron School’s Requirements
+## Check That Your macOS System is Compatible with Flatiron School's Requirements
 
 When working on software, it is important that your computer and the software
-you’re using are compatible. In this step, we’ll ensure that you can install all
+you're using are compatible. In this step, we'll ensure that you can install all
 the tools you will need to complete the program.
 
 ### Action Item
@@ -30,7 +30,7 @@ the tools you will need to complete the program.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bHHyxMMf2CM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CF82Etkyfm8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
 If your version name is macOS Catalina or Big Sur and your version number is
@@ -44,14 +44,12 @@ If your computer does not meet the requirements and you can't upgrade, some
 programs may not work for you. Please reach out to an instructor for more
 information.
 
-## Check that Your macOS System Has Enough Space for Flatiron School’s Requirements
+## Check that Your macOS System Has Enough Space for Flatiron School's Requirements
 
-The programs that we’ll be installing during environment setup and all of the
-work you’ll do with Flatiron School will need at least 4 GB of free disk
+The programs that we'll be installing during environment setup and all of the
+work you'll do with Flatiron School will need at least 4 GB of free disk
 space. Follow the steps below to ensure that you have enough disk space to
 install all the programs needed during environment setup.
-
-<!-- TODO: Verify disk space needs; seems low -->
 
 ### Action Item
 
@@ -63,87 +61,19 @@ install all the programs needed during environment setup.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j49xXshUhxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0Z0BzmiTqsk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
 If your free space for your macOS partition is greater than 4 GB, continue
 below. Otherwise, click "Manage..." to open the System Information window and
 free up some storage space.
 
-## ALERT - For New M1 Mac Laptops ONLY
-
-If you are using a Mac laptop with the new **M1** chip (released in late 2020),
-there are some additional steps required at this stage to ensure all necessary
-tools install correctly. Follow the steps below instead of the normal
-instructions provided for installing Xcode, Homebrew and Ruby.
-
-**1.** Instead of installing Xcode via the directions in the next section, open
-your terminal and run the following to install Xcode:
-
-```console
-$ xcode-select --install
-```
-
-**2.** Create a duplicate copy of the terminal app that can run x86 programs
-with Rosetta. Follow the steps [detailed in this article][x86 terminal]
-(https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602)
-to do this.
-
-[x86 terminal]: https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602
-
-**Note: Every installation step should now be done in the terminal window that has Rosetta enabled**
-
-**3.** Install Homebrew with the following command:
-
-```console
-$ arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
-
-**4.** Run the following three commands one after the other to install RVM and Ruby:
-
-```console
-$ curl -sSL https://get.rvm.io | bash -s stable
-$ source $HOME/.rvm/scripts/rvm
-$ rvm install 2.7.4
-```
-
-**In addition, if you are using an M1 laptop, you will already have Zsh
-installed and in use, so you can move on to installing Chrome and VS Code
-below.**
-
-## Install Command Line Tools for Xcode
-
-Command Line Tools for Xcode is a suite of development tools from Apple,
-including tools for building Mac and iPhone applications. It will help you to
-quickly set up your environment by downloading and installing essential tools
-for other programs we'll be installing.
-
-### Action Item
-
-1. Open the [Apple Developer Download webpage][] (https://developer.apple.com/download/all)
-2. Look for the most recent version of "Command Line Tools for XCode (**Note**:
-   Make sure to look for "Command Line Tools" in the name, as there is also a
-   separate "XCode" package. You want the "Command Line Tools for XCode"). At the time of writing, the most recent version is "Command Line Tools for Xcode 12.5".
-3. Click "View Details" to see more information about the download
-4. Click "Command Line Tools for XCode 12.5.dmg" to download
-5. When the download is finished, click on the file to install
-
-[apple developer download webpage]: https://developer.apple.com/download/all
-
-### Check Your Work
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CXreDmTfn9E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-
-Open the "Terminal" application using "Spotlight Search", at the terminal
-prompt type `xcode-select --install` and press `<Enter>`. If your terminal
-says "xcode-select: error: command line tools are already installed...",
-continue below.
-
 ## Install Homebrew
 
-Homebrew is a package manager for macOS. It allows us to quickly install a
-number of programs we will need.
+[Homebrew][brew] is a package manager for macOS. It allows us to quickly install
+a number of programs we will need.
+
+[brew]: https://brew.sh
 
 ### Action Item
 
@@ -151,12 +81,15 @@ number of programs we will need.
 2. Type `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"` and press `<Enter>`
 3. Follow the prompts on the screen during the installation (Note: this could
    take a while.)
-4. Close the "Terminal" application
-5. Reopen the "Terminal" application using "Spotlight Search"
+4. After the installation has completed, you may be prompted to run two
+   additional commands to add Homebrew to your PATH. If so, run those two
+   commands in your terminal.
+5. Close the "Terminal" application
+6. Reopen the "Terminal" application using "Spotlight Search"
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LU8UeykJxRc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/igtyCPu3JNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
 You can verify that Homebrew is successfully installed by running `brew help`.
@@ -171,7 +104,8 @@ latest version of macOS, but it may need to be installed on older Macs.
 
 1. Open the "Terminal" application using "Spotlight Search"
 2. Type `echo $SHELL` and press `<Enter>`
-3. **If you see `/bin/zsh` or `/usr/local/bin/zsh` DO NOT continue with the next steps. Move on to "Check Your Work".**
+3. **If you see `/bin/zsh` or `/usr/local/bin/zsh` DO NOT continue with the next
+   steps. Move on to "Check Your Work".**
 
 Otherwise, to install Zsh:
 
@@ -186,7 +120,7 @@ Otherwise, to install Zsh:
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sfOvyg_hfTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wiqcFoV2heU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you run `echo $SHELL`, the terminal should output `/bin/zsh` or `/usr/local/bin/zsh`.
 This indicates that Zsh is in use and you are set to continue below.
@@ -228,14 +162,14 @@ for access to your account and for development in the browser.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2AXGt6-kHnE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YS_qinEgacI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you can open the "Google Chrome" application using "Spotlight
 Search", continue below.
 
 ## Install Visual Studio Code (VS Code)
 
-Visual Studio Code (VS Code) is the tool that you’ll use to edit your Ruby and
+Visual Studio Code (VS Code) is the tool that you'll use to edit your Ruby and
 JavaScript files. It is a text editor that provides some beneficial extensions
 for developers. One such tool is an integrated terminal! This means that you can
 edit your code and use your terminal in the same window. Follow the steps below
@@ -262,9 +196,7 @@ to get both set up.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W-fLaEmTLUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KL6EnXV-wVA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5E2frsEGepE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If Visual Studio Code (VS Code) opened after typing `code` in your "Terminal"
 application, continue to the next lesson, **Installing Node on macOS**.
