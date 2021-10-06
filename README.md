@@ -251,7 +251,7 @@ to get both set up.
 5. Drag the "Visual Studio Code" application to your "Applications" folder
 6. Open the "Visual Studio Code" application using "Spotlight Search"
 7. Click "View" in the toolbar, then click "Command Palette" in the dropdown
-   menu, or use the shortcut <Command ⌘> + <Shift> + P
+   menu, or use the shortcut `<Command ⌘> + <Shift> + P`
 8. Type "shell command" in the box and click on "Shell Command: Install 'code'
    command in PATH"
 9. Close the "Visual Studio Code" application
