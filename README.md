@@ -33,9 +33,9 @@ the tools you will need to complete the program.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CF82Etkyfm8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
-If your version name is macOS Catalina or Big Sur and your version number is
-greater than "Version 10.15.0", your computer meets our requirements for the
-course and you can continue below.
+If your version name is macOS Catalina, Big Sur, or Monterey, and your version
+number is greater than "Version 10.15.0", your computer meets our requirements
+for the course and you can continue below.
 
 If your computer does not meet the requirements listed above, but you can
 upgrade, we recommend that you upgrade after completing the environment setup.
