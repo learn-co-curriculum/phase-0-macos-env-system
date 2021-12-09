@@ -23,7 +23,7 @@ the tools you will need to complete the program.
 
 ### Action Item
 
-1. Click on the Apple () menu in the top left of the window
+1. Click on the Apple menu in the top left of the window
 2. Choose "About This Mac" from the menu
 3. Look for the version name (for example, "macOS Big Sur")
 4. Look for the version number (for example, "Version 11.4")
@@ -53,7 +53,7 @@ install all the programs needed during environment setup.
 
 ### Action Item
 
-1. Click on the Apple () menu in the top left of the window
+1. Click on the Apple menu in the top left of the window
 2. Choose "About This Mac" from the menu
 3. Click the "Storage" tab header
 4. Look for your macOS partition (for example, "Macintosh HD")
