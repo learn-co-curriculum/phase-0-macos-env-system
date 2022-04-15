@@ -1,8 +1,9 @@
 # MacOS System Setup
 
-The following instructions are for macOS Catalina through BigSur. If you are not
-on Catalina or a later operating system like BigSur but have the option to
-update, we recommend doing so before following the instructions below.
+The following instructions are for macOS Catalina, BigSur, and Monterey. If you
+are not on one of these operating systems but have the option to update, we
+recommend doing so before following the instructions below. If you are using a
+machine with the M1 chip, we recommend updating to Monterey before you begin.
 
 **Note**: Throughout the environment setup, you will see commands that look like
 this:
@@ -38,7 +39,7 @@ number is greater than "Version 10.15.0", your computer meets our requirements
 for the course and you can continue below.
 
 If your computer does not meet the requirements listed above, but you can
-upgrade, we recommend that you upgrade after completing the environment setup.
+upgrade, we recommend that you do so before completing the environment setup.
 
 If your computer does not meet the requirements and you can't upgrade, some
 programs may not work for you. Please reach out to an instructor for more
@@ -94,6 +95,15 @@ a number of programs we will need.
 
 You can verify that Homebrew is successfully installed by running `brew help`.
 If your terminal outputs a list of `brew` commands, you're all set.
+
+### Troubleshooting
+
+If your machine has an M1 chip and you were unable to install Homebrew, try
+running the following command, then continue from step 2 above:
+
+```console
+$ arch -x86_64 zsh
+```
 
 ## Check Whether You Need to Install Zsh
 
