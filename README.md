@@ -1,6 +1,6 @@
 # MacOS System Setup
 
-The following instructions are for macOS Catalina, BigSur, and Monterey. If you
+The following instructions are for MacOS Catalina, BigSur, and Monterey. If you
 are not on one of these operating systems but have the option to update, we
 recommend doing so before following the instructions below. If you are using a
 machine with the M1 chip, we recommend updating to Monterey before you begin.
@@ -16,7 +16,7 @@ Any time you see a command like this with a `$` at the beginning, those commands
 should be entered in your terminal **without** the `$`. So for the example
 above, you would type `whoami` in the terminal (without a `$`).
 
-## Check That Your macOS System is Compatible with Flatiron School's Requirements
+## Check That Your MacOS System is Compatible with Flatiron School's Requirements
 
 When working on software, it is important that your computer and the software
 you're using are compatible. In this step, we'll ensure that you can install all
@@ -26,7 +26,7 @@ the tools you will need to complete the program.
 
 1. Click on the Apple menu in the top left of the window
 2. Choose "About This Mac" from the menu
-3. Look for the version name (for example, "macOS Big Sur")
+3. Look for the version name (for example, "MacOS Big Sur")
 4. Look for the version number (for example, "Version 11.4")
 
 ### Check Your Work
@@ -34,7 +34,7 @@ the tools you will need to complete the program.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CF82Etkyfm8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
-If your version name is macOS Catalina, Big Sur, or Monterey, and your version
+If your version name is MacOS Catalina, Big Sur, or Monterey, and your version
 number is greater than "Version 10.15.0", your computer meets our requirements
 for the course and you can continue below.
 
@@ -45,7 +45,7 @@ If your computer does not meet the requirements and you can't upgrade, some
 programs may not work for you. Please reach out to an instructor for more
 information.
 
-## Check that Your macOS System Has Enough Space for Flatiron School's Requirements
+## Check that Your MacOS System Has Enough Space for Flatiron School's Requirements
 
 The programs that we'll be installing during environment setup and all of the
 work you'll do with Flatiron School will need at least 4 GB of free disk
@@ -57,7 +57,7 @@ install all the programs needed during environment setup.
 1. Click on the Apple menu in the top left of the window
 2. Choose "About This Mac" from the menu
 3. Click the "Storage" tab header
-4. Look for your macOS partition (for example, "Macintosh HD")
+4. Look for your MacOS partition (for example, "Macintosh HD")
 5. Look for the storage (for example, "119.59 GB available of 186 GB")
 
 ### Check Your Work
@@ -71,7 +71,7 @@ free up some storage space.
 
 ## Install Homebrew
 
-[Homebrew][brew] is a package manager for macOS. It allows us to quickly install
+[Homebrew][brew] is a package manager for MacOS. It allows us to quickly install
 a number of programs we will need.
 
 [brew]: https://brew.sh
@@ -107,8 +107,8 @@ $ arch -x86_64 zsh
 
 ## Check Whether You Need to Install Zsh
 
-Zsh is the new standard shell for the macOS and comes pre-installed with the
-latest version of macOS, but it may need to be installed on older Macs.
+Zsh is the new standard shell for the MacOS and comes pre-installed with the
+latest version of MacOS, but it may need to be installed on older Macs.
 
 ### Action Item
 
@@ -209,4 +209,4 @@ to get both set up.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5E2frsEGepE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If Visual Studio Code (VS Code) opened after typing `code` in your "Terminal"
-application, continue to the next lesson, **Installing Node on macOS**.
+application, continue to the next lesson, **Mac NodeJS Install**.
