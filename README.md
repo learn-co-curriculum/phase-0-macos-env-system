@@ -27,8 +27,7 @@ the tools you will need to complete the program.
 
 1. Click on the Apple menu in the top left of the window.
 2. Choose "About This Mac" from the menu.
-3. Look for the version name (for example, "MacOS Big Sur").
-4. Look for the version number (for example, "Version 11.4").
+3. Look for the version name and number (for example, "MacOS Ventura 13.4").
 
 ### Check Your Work
 
@@ -63,17 +62,17 @@ install all the needed programs.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GpSj3d-nyQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
-If your free space for your macOS partition is greater than 4 GB, continue
+If your free space for your MacOS partition is greater than 4 GB, continue
 below. Otherwise, click "Storage Settings..." to see some recommendations for
 freeing up space as well as some categories you can explore (Applications,
 Documents, etc.) to find things you don't need anymore and can delete.
 
 ## Install Homebrew
 
-[Homebrew][brew] is a package manager for MacOS. It allows us to quickly install
+[Homebrew][] is a package manager for MacOS. It allows us to quickly install
 a number of programs we will need.
 
-[brew]: https://brew.sh
+[Homebrew]: https://brew.sh
 
 ### Action Item
 
@@ -160,14 +159,12 @@ for access to your account and for development in the browser.
 
 ### Action Item
 
-1. Open the [Google Chrome download webpage][] (https://www.google.com/chrome).
+1. Open the [Google Chrome download webpage](https://www.google.com/chrome).
 2. Click "Download Chrome".
 3. Wait for the "googlechrome.dmg" file to download and find it in the "Finder"
    application.
 4. Open the "googlechrome.dmg" file to install Google Chrome.
 5. Drag the "Google Chrome" application to your "Applications" folder.
-
-[google chrome download webpage]: https://www.google.com/chrome
 
 ### Check Your Work
 
@@ -178,16 +175,15 @@ Search", continue below.
 
 ## Install Visual Studio Code (VS Code)
 
-Visual Studio Code (VS Code) is the tool that you'll use to edit your JavaScript
-and Python files. It is a text editor that provides some beneficial extensions
+Visual Studio Code (VS Code) is the tool that you'll use to edit your code files
+for this course. It is a text editor that provides some beneficial extensions
 for developers. One such tool is an integrated terminal! This means that you can
 edit your code and use your terminal in the same window. Follow the steps below
 to get both set up.
 
 ### Action Item
 
-1. Open the [Visual Studio Code download webpage][]
-   (https://code.visualstudio.com/Download)
+1. Open the [Visual Studio Code download webpage](https://code.visualstudio.com/download)
 2. Click on the Mac download option and start the download
 3. Wait for the ".zip" file to download and find it in the "Finder" application
 4. Click the ".zip" file to open it and install Visual Studio Code
@@ -200,8 +196,6 @@ to get both set up.
 9. Close the "Visual Studio Code" application
 10. Open the "Terminal" application using "Spotlight Search"
 11. Type `code` and press `<Enter>`
-
-[visual studio code download webpage]: https://code.visualstudio.com/Download
 
 ### Check Your Work
 
