@@ -10,12 +10,12 @@ but the instructions below may not always match what you see on your machine.
 this:
 
 ```console
-$ ls
+$ whoami
 ```
 
 Any time you see a command like this with a `$` at the beginning, those commands
 should be entered in your terminal **without** the `$`. So for the example
-above, you would type `ls` in the terminal (without a `$`).
+above, you would type `whoami` in the terminal (without a `$`).
 
 ## Check That Your MacOS System is Compatible with Flatiron School's Requirements
 
